@@ -1,0 +1,42 @@
+﻿<style >
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-striped {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table-striped thead {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .table-striped tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .table-striped tbody tr:hover {
+        background-color: #e9ecef;
+        transition: background-color 0.3s ease;
+    }
+
+.btn-primary {
+    margin-bottom: 15px;
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+</style >
